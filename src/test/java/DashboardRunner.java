@@ -11,8 +11,8 @@ import io.cucumber.junit.Cucumber;
         features = "src/main/resources/features/manageAccess.feature",
         glue = {"steps"}
         , stepNotifications = true
-       // tags="@regression"
-        //   tags="@regression and @shakeout"
+       // ,tags="@regression"
+        //   ,tags="@regression and @shakeout"
 )
 
 
