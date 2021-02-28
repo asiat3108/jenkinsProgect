@@ -25,11 +25,11 @@ public class WebdriverUtils {
 
             switch (browserType.toLowerCase()){
                 case "firefox" :
-                    System.setProperty("webdriver.gecko.driver" , "/Users/khaliunaabaasandorj/Downloads/drivers/geckodriver");
+                    System.setProperty("webdriver.gecko.driver" , "/Users/chi_town/Downloads/geckodriver");
                     driver = new FirefoxDriver();
                     break;
                 default:
-                    System.setProperty("webdriver.chrome.driver" , "/Users/khaliunaabaasandorj/Downloads/drivers/chromedriver");
+                    System.setProperty("webdriver.chrome.driver" , "/Users/chi_town/Downloads/chromedriver");
                     driver = new ChromeDriver();
                     break;
             }
